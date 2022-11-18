@@ -34,13 +34,10 @@ ul {
     margin: 70px;
     display: flex;
     justify-content: space-between;
-    
-
 }
 
 .right-header-content, .left-header-content {
    max-width: 40%;
-    
 }
 
 .secondary-text {
@@ -57,7 +54,6 @@ ul {
     font-size: 48px;
     color: #f9faf8;
     font-weight: bolder;
-
 }
 
 .right-header-content {
@@ -72,7 +68,6 @@ ul {
     border: none;
     border-radius: 10px;
     font-size: 18px;
-    
 }
 /*HEADER ends*/
 
@@ -84,7 +79,6 @@ main {
     flex-direction: column;
     justify-content: center;
     min-height: 450px;
-
 }
 
 #information-header {
@@ -102,7 +96,6 @@ main {
 .images-main div {
     width: 150px;
     margin: 25px;
-
 }
 
 .images-main img {
@@ -110,7 +103,6 @@ main {
     border: solid;
     border-color: #3882f6;
     border-width: 5px;
-
 }
 /*MAIN ends*/
 
@@ -129,7 +121,6 @@ main {
     width: 376px;
     display: flex;
     justify-content: flex-end;
-    
 }
 
 .quote h1 {
@@ -139,13 +130,52 @@ main {
 }
 /*QUOTE ends*/
 
+/*SECONDARY starts*/
 .secondary {
     height: 40vh;
     min-height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
+#blue-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    width: 60%;
+    border-radius: 10px;
+}
+
+#blue-container button {
+    background-color: #3882f6;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border: solid white;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#blue-container div {
+    color: white;
+}
+
+#blue-left {
+    width: 60%;
+}
+/*SECONDARY ends*/
+
+/*FOOTER starts*/
 footer {
     height: 20vh;
     background-color: #1f2937;
     min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+/*FOOTER ends*/
